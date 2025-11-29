@@ -16,7 +16,7 @@ This project is an end-to-end machine learning pipeline that:
 
 🧹 Cleans and preprocesses the comment data
 
-🧠 Trains a **Logistic Regression** model using **TF-IDF Vectorization**
+🧠 Trains a **Logistic Regression** model using **Word 2 Vec Vectorization**
 
 🎯 Predicts Sentiment as **Positive, Negative, or Neutral**
 
@@ -40,4 +40,5 @@ Nizam College, Osmania University
 """)
 
 if st.button("Next"):
+
     st.switch_page("pages/1_Data_Overview.py")
